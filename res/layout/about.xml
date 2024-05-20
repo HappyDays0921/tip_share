@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/btn_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="뒤로가기버튼"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="25dp" />
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="416dp"
+            android:layout_height="170dp"
+            android:background="@color/blue"
+            android:text="글 제목?"
+            android:textSize="40dp"
+            tools:layout_editor_absoluteX="-3dp"
+            tools:layout_editor_absoluteY="99dp" />
+        <TextView
+            android:layout_width="416dp"
+            android:layout_height="170dp"
+            android:text="여기에 글 내용(500자 이내)"
+            android:textSize="30dp"
+            tools:layout_editor_absoluteX="-3dp"
+            tools:layout_editor_absoluteY="99dp" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="30dp">
+
+
+        </View>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:text="좋아요">
+            </Button>
+            <TextView
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:text="10"
+                android:textSize="20dp"
+                android:gravity="center">
+
+            </TextView>
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="416dp"
+            android:layout_height="170dp"
+            android:text="여기에 받을 주소\n여기에 시간대"
+            android:textSize="40dp"
+            tools:layout_editor_absoluteX="-3dp"
+            tools:layout_editor_absoluteY="99dp" />
+    </LinearLayout>
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
